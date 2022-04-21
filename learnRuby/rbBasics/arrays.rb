@@ -13,3 +13,22 @@ puts lucky_numbers[2..4]
 puts "\n\n"
 
 puts lucky_numbers.length
+
+multidimension_array = [[1, 2], [3, 4]]
+
+puts multidimension_array[0][0] # = 1
+
+friends = []
+
+friends.push("Oliver")
+friends.push("Oliver2")
+
+friends.pop # remove the last element
+
+puts friends
+
+puts friends.reverse # reverse that shit
+
+puts friends.sort
+
+puts friends.include? "Oliver"
