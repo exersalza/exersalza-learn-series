@@ -2,8 +2,9 @@
 
 int main()
 {
-	printf("cooler dude\n");
+	int myNum = 15;
 
+	printf("%d", myNum);
 	return 0;
 }
 
