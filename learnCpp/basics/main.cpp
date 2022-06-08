@@ -7,14 +7,10 @@
 using namespace std;
 
 int main() {
-    int myNum = 15;
-    double largerNumber = 20000.000L;
-    float smolNumber;
-    smolNumber = 15.99;
-    char myLetter = 'D';
-    string myString = "Hello";
-    bool isTrue = true;
 
-    cout << "Hello world" << myString << endl;
+    char grade = 0x41;
+    string phrase = "Academy";
+    int age = 50;
+
     return 0;
 }
