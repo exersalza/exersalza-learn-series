@@ -3,14 +3,14 @@
 //
 
 #include <iostream>
+#include <memory>
 
 using namespace std;
 
 int main() {
+    string name = "Mosh";
 
-    char grade = 0x41;
-    string phrase = "Academy";
-    int age = 50;
+
 
     return 0;
 }
