@@ -5,21 +5,17 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <sstream>
 
 using namespace std;
 
 
 int main() {
-    ifstream file;
-    string str;
-    file.open("../basics/data");
-    if (file.is_open()) {
-        while (!file.eof()) {
-            getline(file, str);
-            cout << str << endl;
-        }
-        file.close();
-    }
+    double number = 12.34;
+    stringstream stream;
+    stream << fixed << setprecision(2) << number;
+    string str = stream.str();
+    cout << str;
 
     return 0;
 }

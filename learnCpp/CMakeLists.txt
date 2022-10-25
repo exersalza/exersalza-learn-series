@@ -4,4 +4,4 @@ project(learnCpp)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(learnCpp
-        basics/main.cpp)
+        oop/oop.cpp oop/rectangle.cpp oop/rectangle.h oop/Person.cpp oop/Person.h oop/SmartPointer.cpp oop/SmartPointer.h)
