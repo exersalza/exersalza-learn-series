@@ -12,3 +12,7 @@ SmartPointer::~SmartPointer() {
 SmartPointer::SmartPointer(int *ptr) : ptr{ptr} {
 
 }
+
+int &SmartPointer::operator*() {
+    return *ptr;
+}

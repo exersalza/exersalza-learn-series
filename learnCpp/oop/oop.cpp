@@ -6,16 +6,15 @@
 #include "rectangle.h"
 #include "Person.h"
 #include "SmartPointer.h"
+#include "Length.h"
+#include "Array.h"
 #include <memory>
 
 using namespace std;
 
-void showPerson(Person& person) {
-
-}
-
 int main() {
-    SmartPointer ptr{new int};
-
+    Length length {10};
+    int x = length;
+    cout << x << endl;
     return 0;
 }
