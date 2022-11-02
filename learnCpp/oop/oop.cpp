@@ -3,18 +3,13 @@
 //
 
 #include <iostream>
-#include "rectangle.h"
-#include "Person.h"
-#include "SmartPointer.h"
-#include "Length.h"
-#include "Array.h"
-#include <memory>
+#include "TextBox.h"
 
 using namespace std;
 
 int main() {
-    Length length {10};
-    int x = length;
-    cout << x << endl;
+    TextBox box;
+    box.enable();
+    cout << box.isEnabled() << endl;
     return 0;
 }
